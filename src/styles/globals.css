@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Start Sidebar*/
+
+/* Width */
+.sidebar-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.sidebar-scrollbar::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+/* Handle */
+.sidebar-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(63, 81, 181, 0.85);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.sidebar-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(63, 81, 181, 1);
+}
+
+/*End Sidebar*/
